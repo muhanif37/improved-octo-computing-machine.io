@@ -361,10 +361,10 @@ body {
 
 .card {
   width: 30%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-top: 2em;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 .card .card-title {
   text-align: center;
@@ -1240,6 +1240,14 @@ body {
   }
   .guidance .headline h2 {
     font-size: 60px;
+  }
+
+  .card-deck .card-title h2 {
+    padding: 5px;
+  }
+
+  .card-deck .caption p {
+    padding: 5px;
   }
 
   .iframe {
